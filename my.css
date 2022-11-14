@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDw8NDQ0NDQ0NDw0NDQ0NDQ8NDQ0NFREWFhURExUYKCggGBolGxUVITkhJSk3MDEuFx8zOjUxOy4tLisBCgoKDQ0OFQ8PFS0dFRkrKy0tLTc3KzcrLS0tKystLS0rKysrKysrKys3LSsrKysrKysrKysrKysrKysrKysrK//AABEIACICWAMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBwT/xAAlEAEBAQABAQgCAwAAAAAAAAAAAQIRcQMSITFBUWHwIsEzQpH/xAAaAQEBAQEAAwAAAAAAAAAAAAACAwEABAUH/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIRAxEAPwDkwAe5jzDgEDSMwHOAAcRxSYpzjX7Ii59+RrKYAYNVkQQRlGmcI4NGmcI2J0407LXHM71xLPGyc2/H2oPGrLLLxZ6+wgOnl6dBFdrqW8zWt++tTi2/7Sg1OnDyUOCFNUSoaBgAU6ZwoY1OgyNiegAHI6I4Rwa8eqOEqCJnCMKFUcI4NYZwlQRM4RwawzJUYNMyOBWHDhQ4I1TTLONchp2WkaZZ5aZRryMrjSIi4nVYuLiMrynTi8riI0idOKyuIyuJ04uLiIuJ04qLiIuJ04qLiYqJ0oqKhKgUoqAQBScNAD6jHujAEa1QAcQADmnFJio5xriYoaymAGDVQQUMonDhHBoUzI2BVAAU617TfMnO9as/rZ+Oenj09ERff/Djv34xJ4efqiCFOHkoqDQoVylQ0KIYMU6IcIxqdBkbEtAAnI6BwHBqFNUSqDRpqiVROhThwjjKw1RKoImqJVBomaTGsqjhGNYo4RwRqo0yzjTKem5a5XlGWkSq+VxcRFxOqxpFRMXE6cVFxMWnVIvKomLidKLyvKMriVOKiomKgU4uKiYuJ0opUSqBTiwADXDAA+pR7oxDDmmAHEAA5pxQDq5U81QAaymDDAOgBlGhUAGiZgMCqAAhXsx/Det/TygDU6cVCAhTVDA1OiGAIUHABqegAGI6MUg5HQOABUapUMMo0KgAUKZwAaxUOACJqgA0QqACymYAUVCGGMNtkBPTctI0yAlV8rjSAJ1WLyuAJ1SLysgnTjTK8gJ04uLgCVKKigAOLyvJhOlDioAnTioABa//2Q==");
+    width:100%;
+    padding:0 20px;
+    position:sticky;
+    top:0px;
+    text-align: center;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    font-weight: 50px;
+    transition: 0.4s ease-in;
+
+   
+}
+.nav-container { 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container .part1{
+    padding-top: 5px;
+}
+.nav-container .part1 img{
+    border-radius: 50%;
+}
+.nav-container ul{
+    display:flex;
+    gap:40px;
+}
+.nav-container ul li{
+    list-style-type: none;
+     color:white;
+     border-bottom: 2px solid transparent;
+     transition: 0.2s ease-in;
+}
+.nav-container ul li:hover{
+      color:rgb(241, 9, 9);
+        border-bottom: 2px solid white;
+        transition: 0.4s ease-in;
+      
+}
+.nav-container a{
+    text-decoration: none;
+}
+
+
+.maincontent{
+    display:flex;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    margin:auto 0px;
+    background-image: url("https://images.all-free-download.com/images/graphiclarge/technology_background_template_modern_elegant_dark_geometric_decor_6854327.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.left .text{
+    color:white;
+    transition: 0.2 ease-in-out;
+}
+.left h1{
+    line-height: 40px;
+    font-weight:3px;
+}
+.text .name{
+    font-size:80px; 
+    line-height: 70px;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    background:url("./back.png");
+    -webkit-background-clip:text; 
+     background-position: 0 0;
+    animation:back 40s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 4000px;
+    }
+}
+.rcontent .right {
+    margin:40px auto;
+      
+}
+.rcontent .right img{
+   border-radius: 50px; 
+}
+
+
+
+.maincontent2{
+    background-image: url("https://i.pinimg.com/736x/c0/10/80/c010806905f04cc8a81cd04d1bf4d8fc.jpg");
+     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     background-size: cover; 
+    color:white;
+    padding:1rem; 
+    
+}
+.maincontent2 .img{
+    display: flex;
+    justify-content: center;
+    width:40%;
+    align-items: center;
+    margin-left: 80px;
+    
+   
+}
+.maincontent2 img{
+    border-radius: 50%;
+}
+.maincontent2 .rightm2{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    background-color: transparent;
+    opacity: .7;
+    margin-right:40px;
+    
+    
+}
+.maincontent2 .rightm2:hover{
+    transform: scale(1.05);
+    transition: .4s ease-in;
+    box-shadow: 0px 5px 20px white;
+    
+}
+
+.maincontent2 .text{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 40px;
+    font-size: 30px;
+    width:100%;
+    text-align: justify;
+    padding: 15px 12px;
+    color:white;
+    opacity: 5px;
+    
+}
+.maincontent2 .see{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 10px;   
+}
+.maincontent2 .see a{
+    text-decoration: none;
+    color:white;
+    padding:5px 12px;
+    background-color: #fc0606;
+    font-size: 23px;
+}
+.maincontent2 .see a:hover{
+    color:black;
+}
+.maincontent3{
+    background-image: url("https://media.istockphoto.com/photos/stylish-table-desk-workspace-on-black-background-picture-id1296308898?b=1&k=20&m=1296308898&s=170667a&w=0&h=dTgxOKou6YkubnC2uv5t2qVE9s6ZGwbyf6DtmYwaGzo=") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maincontent3 .features{
+    display:flex;
+    flex-direction: row;
+    padding:40px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    gap:30px;
+    opacity: .8;
+    text-align: justify;
+    
+
+}
+.features .feature{
+    background-color:rgb(158, 158, 158) ;
+    color:rgb(0, 0, 0);
+   max-width: 250px;
+   padding:20px;
+   border-radius: 12px;
+   border: 1px solid #bacdd8;  
+}
+.features .feature .text{
+    color:white;
+    z-index: 1;
+}
+.features .feature:hover{
+    transform:translateX(7px) ;
+    transition: .4s ease-in-out;
+   
+    box-shadow: 0px 5px 20px rgb(252, 251, 251);
+    
+}
+.feature .img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.connect{
+    background-color:  #b6d1f5;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShsHwrVG0GscNwI4TqrSwz6mXj-Y4DxCpe1A&usqp=CAU");
+    transition: 0.4s ease-in;
+}
+.connect .head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+.connect .line{
+    border-bottom: 2px solid white;
+    width:250px;
+    margin-bottom: 20px;
+    
+}
+.connect .media{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+ 
+}
+.media .medias:hover{
+    transform:scale(1.4);
+    transition: .4s ease-in;
+
+}
+.skill{
+    background-color: #031627;
+    height:400px;
+    width:100%;
+    display: flex;
+    color:white;
+    position: relative;
+}
+.skill .text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    position: absolute;
+}
+
+
